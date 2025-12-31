@@ -13,4 +13,4 @@ It is powered by ***Playwright*** under the hood.
 
 Of course, the major (and it's most obvious) limitation of such browser is that it is not guaranteed to display SPA (Single Page Application) pages without employing some sort of custom script to do that. Crawling such sites typically results in empty content, as the browser only extracts the static HTML skeleton.
 
-I called this a crawler because, technically speaking, Playwright crawls the targeted site, and extract the HTML skeleton, and the code simply parses, and maps each node. It then represents the content with Rich text in a readable format.. (for example <h1> tags become "Heading,", <p> tags becomes paragraphs, etc ) without changing the original hierarchical structure of the page. 
+I called this a crawler because, technically speaking, Playwright crawls the targeted site, and extract the HTML skeleton, and the code simply parses, and maps each node. It then represents the content with Rich text in a readable format.. (for example `<h1>` tags become "Heading,", `<p>` tags becomes paragraphs, etc ) without changing the original hierarchical structure of the page. 
